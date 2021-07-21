@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.board {
+  padding: 100px;
+  border: 1px solid #ccc;
+  background-color: #61dafb;
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #bbb
+}
